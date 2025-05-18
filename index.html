@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 3 pt2</title>
+    <link rel="stylesheet" href="tabela.html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <div id="area">
+      <form id="form">
+        <fieldset id="personal-data">
+          <legend id="legend">Dados pessoais</legend>
+          <div id="personal-data-fields">
+            <div>
+              <label for="name">Nome completo:</label>
+              <input type="text" id="name" class="nam"> <br>
+            </div>
+            <div>
+              <label for="dnasc">Data de nascimento:</label>
+              <input type="text" id="dnasc" class="dtnasc"><br>
+            </div>
+            <div>
+              <label for="end">Endereço:</label>
+              <input type="text" id="end" class="ende"> <br>
+            </div>
+            <div>
+              <div>
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" class="barr">
+              </div>
+              <div>
+                <label for="cid" class="min-width-20">Cidade:</label>
+                <input type="text" id="cid" class="cidd">
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" class="cep1">
+              </div>
+              <div>
+                <label for="est" class="min-width-20">Estado:</label>
+                <select name="Estado" id="est" class="est1">
+                  <option value="ce">Ceará</option>
+                  <option value="rio">Rio de Janeiro</option>
+                  <option value="rn">Rio Grande do Norte</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <br><br>
+
+    <form> 
+     <fieldset> 
+        <legend>Dados profissionais</legend>
+
+        Natureza do Cargo
+        <br>
+
+        <input type="radio" id="ger" name="Gerência" value="Gerência1">
+        <label for="ger">Gerência</label>
+
+        <input type="radio" id="fin" name="Financeiro" value="Financeiro1">
+        <label for="fin">Financeiro</label>
+        
+        <input type="radio" id="rec" name="Recepção" value="Recepção1">
+        <label for="rec">Recepção</label>
+
+        <input type="radio" id="adm" name="Administrativo" value="Administrativo1">
+        <label for="adm">Administrativo</label>
+
+        <input type="radio" id="jur" name="Juridico" value="Juridico1">
+        <label for="jur">Jurídico</label>
+
+        <br><br>
+
+        Área de interesse
+        <br>
+
+        <input type="checkbox" id="cmp"> 
+        <label for="cmp">Computação</label>
+           
+        <input type="checkbox" id="qui">
+        <label for="qui">Química</label>
+
+        <input type="checkbox" id="mei">
+        <label for="mei">Meio Ambiente</label>
+
+        <input type="checkbox" id="eng">
+        <label for="eng">Engenharia</label>
+
+        <input type="checkbox" id="mat">
+        <label for="mat">Matemática</label>
+        <br><br>
+        Mini-currículo <br>
+        <textarea  cols="30" rows="10"></textarea>
+     </fieldset>
+
+
+    </form>
+    </fieldset>
+    <br><br>
+
+    <button type="button">Enviar</button>
+    <button type="button">Voltar</button>
+    <br><br>
+
+    <a href="tabela.html">Exercício 2</a>
+    
+</body>
+</html>
